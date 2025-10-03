@@ -36,13 +36,14 @@ public class T00 {
             if (b1 % 2 != 0 && b2 % 2 != 0) {
                 hpk = b1 * b2;
                 System.out.println("Hasil perkalian: " + hpk);
-            }
-        }
-        if (b1 % 2 != 0 && b2 % 2 == 0) {
-            System.out.println("Berbeda jenis");
-        } else {
-            if (b2 % 2 != 0 && b1 % 2 == 0) {
-                System.out.println("Berbeda jenis");
+            } else {
+                if (b1 % 2 != 0 && b2 % 2 == 0) {
+                    System.out.println("Berbeda jenis");
+                } else {
+                    if (b2 % 2 != 0 && b1 % 2 == 0) {
+                        System.out.println("Berbeda jenis");
+                    }
+                }
             }
         }
     }
