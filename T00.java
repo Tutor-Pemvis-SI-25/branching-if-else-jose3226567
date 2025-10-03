@@ -12,7 +12,7 @@ public class T00 {
         if (b1 % 2 == 0) {
             System.out.println("Bilangan pertama: Genap");
         } else {
-            System.out.println("Bilangan Pertama: Ganjil");
+            System.out.println("Bilangan pertama: Ganjil");
         }
         if (b2 % 2 == 0) {
             System.out.println("Bilangan kedua: Genap");
