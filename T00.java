@@ -4,14 +4,14 @@
 import java.util.*;
 import java.lang.Math;
 
-public class Program {
+public class T00 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
         int b1, b2, hpk, hp;
 
-        b1 = input.nextInt();
-        b2 = input.nextInt();
+        b1 = Integer.parseInt(input.nextLine());
+        b2 = Integer.parseInt(input.nextLine());
         if (b1 % 2 == 0) {
             System.out.println("Bilangan pertama: Genap");
         } else {
