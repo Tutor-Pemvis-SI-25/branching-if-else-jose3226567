@@ -1,4 +1,3 @@
-//12S25003-Afrian Josse Siadari
 import java.util.*;
 import java.lang.Math;
 
@@ -13,7 +12,7 @@ public class T00 {
         if (b1 % 2 == 0) {
             System.out.println("Bilangan pertama: Genap");
         } else {
-            System.out.println("Bilangan Pertama : Ganjil");
+            System.out.println("Bilangan Pertama: Ganjil");
         }
         if (b2 % 2 == 0) {
             System.out.println("Bilangan kedua: Genap");
@@ -31,11 +30,11 @@ public class T00 {
         }
         if (b1 % 2 == 0 && b2 % 2 == 0) {
             hp = b1 + b2;
-            System.out.println("Hasil penjumlahan:" + hp);
+            System.out.println("Hasil penjumlahan: " + hp);
         } else {
             if (b1 % 2 != 0 && b2 % 2 != 0) {
                 hpk = b1 * b2;
-                System.out.println("Hasil perkalian:" + hpk);
+                System.out.println("Hasil perkalian: " + hpk);
             }
         }
         if (b1 % 2 != 0 && b2 % 2 == 0) {
@@ -47,4 +46,3 @@ public class T00 {
         }
     }
 }
-
